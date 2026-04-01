@@ -1,11 +1,15 @@
 #include <Arduino.h>
 
-#define led LED_BUILTIN
+#define led D2
 
 void setup() {  
+  Serial.begin(9600);
   pinMode(led, OUTPUT);
-  digitalWrite(led, HIGH);
 }
 
 void loop() {
+  digitalWrite(led, HIGH);
+  Serial.println("Salut NodeMCU");
+  delay(1000);
+
 }
