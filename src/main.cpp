@@ -9,7 +9,7 @@ void setup() {
 
 void loop() {
   digitalWrite(led, HIGH);
-  Serial.println("Salut NodeMCU");
+  Serial.println("Salut NodeMCU VA");
   delay(1000);
 
 }
