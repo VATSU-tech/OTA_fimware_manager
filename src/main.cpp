@@ -1,8 +1,8 @@
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
 
-const char* ssid = "UNILUK-NET";
-const char* password = "";
+const char* ssid = "WANTED";
+const char* password = "espoir100";
 
 void setup() {
   Serial.begin(9600);
