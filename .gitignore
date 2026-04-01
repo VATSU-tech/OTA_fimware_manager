@@ -5,6 +5,8 @@
 .pio/build/nodemcuv2/idedata.json
 .pio/build/nodemcuv2/firmware.elf
 .pio/build/nodemcuv2/lib4c8
+.pio/build/nodemcuv2/libc83
+.pio/build/nodemcuv2/libf80
 .pio/build/nodemcuv2/unity_config
 .pio/build/nodemcuv2/libFrameworkArduino.a
 .pio/build/nodemcuv2/libFrameworkArduinoVariant.a

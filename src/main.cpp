@@ -11,6 +11,9 @@ String firmware_url = "https://raw.githubusercontent.com/VATSU-tech/OTA_fimware_
 
 String currentVersion = "1.0";
 
+void checkUpdate();
+void updateFirmware();
+
 void setup() {
   Serial.begin(115200);
   WiFi.begin(ssid, password);
